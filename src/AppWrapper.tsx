@@ -1,4 +1,5 @@
-import { Route, Routes, useNavigate } from "react-router-dom";
+// import { Route, Routes, useNavigate } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import { Login } from "./pages/Login";
 import { Home } from "./pages/Home";
 
@@ -8,7 +9,7 @@ import { Home } from "./pages/Home";
  * - Use useNavigate hook https://reactrouter.com/en/6.26.0/hooks/use-navigate
  */
 export const AppWrapper = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   return (
     <Routes>
