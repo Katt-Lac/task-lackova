@@ -1,6 +1,5 @@
  import { User } from "../model/User.ts";
-//
-// // TODO implement parser
+
   export const parseUser = (data: User): User => {
       return {
           name: data.name,

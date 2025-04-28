@@ -6,14 +6,6 @@ import {Box} from "@mui/material";
 import profileImage from "../assets/profile_image.png";
 import {User} from "../model/User.ts";
 
-/**
- * TODO
- *
- * 1. Load user from browser localStorage (use useEffect() hook)
- * 2. Set user to component state (use useState() hook)
- * 3. Display name of the user in <h1> tag (see Todo)
- * 4. Display rest in of the data using UserDiagnoses
- */
 export const Home = () => {
     const [user, setUser] = useState<User | null>(null);
     const [loading, setLoading] = useState(true);

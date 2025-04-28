@@ -7,9 +7,7 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import {Typography} from "@mui/material";
-/**
- * Todo: Display list of user diagnoses here.
- */
+
 interface UserDiagnosesProps {
   diagnosis: string[];
 }
